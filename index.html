@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matcirkeln</title>
-</head>
-<body>
-  <h1>Matcirkeln</h1>
-  <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <h2>Måndag</h2>
-    Medelhavsmåndag: italienskt, grekiskt, spanskt, libanesiskt
-    <h2>Tisdag</h2>
-    Taco tuesday (need I say more?)
-    <h2>Onsdag</h2>
-    Vietnamesisk vednesday
-    <h2>Torsdag</h2>
-    Laxsalladssöndag
-    <h2>Fredag</h2>
-    Fastfood friday: burgare, pizza, kebab
-  </main>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Notable&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Matcirkeln</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <h2 id="dish-name"></h2>
+        <img
+          id="dish-image"
+          src="img/pizza.png"
+          alt="Dish Image"
+          class="dish-image"
+        />
+      </div>
+      <div class="buttons">
+        <button class="randomize-button" id="randomize-button">Slumpa</button>
+      </div>
+    </main>
+
+    <script src="dishes.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+  </body>
 </html>
